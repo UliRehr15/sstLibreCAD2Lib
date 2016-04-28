@@ -13,15 +13,16 @@ INCLUDEPATH = ./Header
 
 INCLUDEPATH = ./Header
 
-SOURCES		+= ./lib/engine/rs_vector.cpp
+SOURCES		+= ./lib/engine/rs_vector.cpp  \
+             ./lib/engine/rs.cpp
 
 OTHER_FILES += README.md
 
 debug{
-  TARGET		= sstLibreCadLib_d
+  TARGET		= sstLibreCAD2Lib_d
 }
 release{
-  TARGET		= sstLibreCadLib_r
+  TARGET		= sstLibreCAD2Lib_r
 }
 
 DESTDIR     = ../libs
