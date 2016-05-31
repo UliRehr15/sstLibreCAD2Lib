@@ -13,6 +13,11 @@ INCLUDEPATH = ./Header
 
 INCLUDEPATH = ./Header
 
+HEADERS  += ./Header/rs.h  \
+            ./Header/rs_debug.h  \
+            ./Header/rs_math.h   \
+            ./Header/rs_vector.h
+
 SOURCES		+= ./lib/engine/rs_vector.cpp  \
              ./lib/engine/rs.cpp
 

@@ -14,4 +14,5 @@ Structure of coding projects should be:
 
 09.04.16: Version 1.0: first check in: object rs_vector  <BR>
 28.04.16: Version 1.1: Added librecad file lib/engine/rs.cpp  <BR>
+31.05.16: Version 1.2: Added enum HatchLoop and HatchEdge.  <BR>
 

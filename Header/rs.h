@@ -146,6 +146,8 @@ public:
         EntityDimAngular,   /**< Angular Dimension */
         EntityDimLeader,    /**< Leader Dimension */
         EntityHatch,        /**< Hatch */
+        EntityHatchEdge,    /**< Hatch Edge  Inserted by Re. 24.05.16*/
+        EntityHatchLoop,    /**< Hatch Loop  Inserted by Re. 24.05.16*/
         EntityImage,        /**< Image */
         EntitySpline,       /**< Spline */
         EntitySplinePoints,       /**< SplinePoints */
