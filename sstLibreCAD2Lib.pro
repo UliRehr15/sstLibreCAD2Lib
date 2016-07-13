@@ -1,7 +1,7 @@
 TEMPLATE	= lib
 CONFIG		+= warn_on
-CONFIG    -= qt
-CONFIG    -= windows
+CONFIG    += qt
+CONFIG    += windows
 CONFIG += c++11
 
 # CONFIG    -= debug  # ist RELEASE aktiv
@@ -9,9 +9,11 @@ CONFIG    -= release  # ist DEBUG aktiv
 
 CONFIG    += staticlib
 
-INCLUDEPATH = ./Header
+INCLUDEPATH +=  ../boost_1_61_0
+INCLUDEPATH +=  ../muparser-2.2.5/include
+INCLUDEPATH +=  ./Header
 
-INCLUDEPATH = ./Header
+# INCLUDEPATH = ./Header
 
 HEADERS  += ./Header/rs.h  \
             ./Header/rs_debug.h  \
@@ -19,7 +21,10 @@ HEADERS  += ./Header/rs.h  \
             ./Header/rs_vector.h
 
 SOURCES		+= ./lib/engine/rs_vector.cpp  \
-             ./lib/engine/rs.cpp
+             ./lib/engine/rs.cpp \
+             ./lib/engine/lc_rect.cpp \
+             ./lib/debug/rs_debug.cpp \
+             ./lib/math/rs_math.cpp
 
 OTHER_FILES += README.md
 
