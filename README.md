@@ -10,9 +10,9 @@ Compile with QT 5.5 and QTCreator 3.5
 Structure of coding projects should be:
 
 .. [libs]  <BR>
-.. [boost_1_61_0]  <BR>
-.. [muParser]  <BR>
-.. [dxflib]  <BR>
+.. [boost_1_61_0]  from boost <BR>
+.. [muParser]  from internet <BR>
+.. [dxflib]  from github <BR>
 .. [sstStr01Lib]  <BR>
 .. [sstMisc01Lib]  <BR>
 .. [sstLibreCAD2Lib]  <BR>
@@ -24,4 +24,5 @@ Structure of coding projects should be:
                        Guest file: dxflib.pro <BR>
                        Guest file: dxflib_test.pro <BR>
                        Guest file: muParser.pro <BR>
+23.12.16: Version 1.4: Added libreCAD color, flags and math. <BR>
 
