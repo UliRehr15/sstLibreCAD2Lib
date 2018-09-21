@@ -9,7 +9,7 @@ CONFIG    -= release  # ist DEBUG aktiv
 
 CONFIG    += staticlib
 
-INCLUDEPATH +=  ../boost_1_61_0
+INCLUDEPATH +=  ../boost_1_68_0
 INCLUDEPATH +=  ../muparser-2.2.5/include
 INCLUDEPATH +=  ./Header
 
